@@ -1,0 +1,126 @@
+body {
+	font-family: 'UrbanoRegular','arial','helvetica','geneva',sans-serif;
+	font-size: 14px;
+	line-height: 1.4em;
+	color: #454545;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 1em;
+	font-family: 'UrbanoRegular','arial','helvetica','geneva',sans-serif;
+	margin-bottom: 0.3em;
+	color: #074478;}
+
+h2 {
+	font-size: 24px;
+	line-height: 1.0em;
+	font-family: 'UrbanoRegular','arial','helvetica','geneva',sans-serif;
+	margin-bottom: 0.3em;
+	color: #074478;
+}
+
+h3 {
+	font-size: 16px;
+	font-family: 'UrbanoLight','arial','helvetica','geneva',sans-serif;
+	margin-bottom: 4px;;
+	line-height: 1.3em;
+	color: #074478;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 20px;
+	font-family: 'UrbanoRegular','arial','helvetica','geneva',sans-serif;
+	margin-bottom: 0.3em;
+	line-height: 1.3em;
+	color: #074478;
+}
+
+h5 {
+	font-size: 16px;
+	font-family: 'UrbanoRegular','arial','helvetica','geneva',sans-serif;
+	margin-bottom: 0;
+	line-height: 1.5em;
+}
+
+h6 a {
+	display: inline-block;
+	border: 1px solid #b8b8b8;
+	height: 32px;
+	line-height: 32px;
+	padding-right: 60px;
+	padding-left: 18px;
+	color: #08538a;
+	font-size: 14px;
+	font-weight: normal;
+	background-image: url('images/body-link-arrow.png');
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+h6 a:hover {
+	background-color: #e6e6e6;
+}
+
+sup {
+	vertical-align: top; 
+	font-size: 0.7em;
+	position: relative; 
+	top: -0.5em;
+}
+
+p, ul {
+	margin-bottom: 0.8em;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+i, em {
+	font-style: italic;
+}
+
+/* COLUMNS! for the admin theme */
+#edit-field-column-1 {
+	width: 60%;
+	display: inline-block;
+}
+#edit-field-column-2 {
+	width: 37%;
+	display: inline-block;
+}
+
+/* body content lists */
+#targ .node .content ul {
+	margin-left: 1em;
+	list-style-position: inside;
+}
+
+body.cke_show_borders ul li,
+#targ .ckedited ul li {
+	list-style-image:url('images/list-bullet.jpg');
+	margin-bottom: 4px;
+	margin-left: 18px;
+	list-style-position: outside;
+}
+
+body.cke_show_borders ol li,
+#targ .ckedited ol li {
+	margin-bottom: 4px;
+	margin-left: 18px;
+	list-style-position: outside;	
+}
+
+body.cke_show_borders ol,
+#targ .ckedited ol {
+	list-style-position: outside;	
+	list-style-type: decimal;
+}
+
+body.cke_show_borders img,
+.ckedited img {
+	margin: 10px;
+}

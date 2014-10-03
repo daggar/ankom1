@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ankom stuff migrate feature.
+ */
+
+include_once 'ankom_stuff_migrate.features.inc';

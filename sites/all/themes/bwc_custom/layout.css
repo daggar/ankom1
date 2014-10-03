@@ -1,0 +1,245 @@
+
+
+body {
+}
+
+a {
+	text-decoration: none;
+	color: #aa7777;
+}
+
+.tabs,
+.messages,
+.status {
+	font-size: 12px;
+}
+
+.transverk-side .block {
+	border-bottom: 1px solid #aaaaaa;
+}
+
+
+/* primary menu with flyout */
+#header-ribbon {
+	position: relative;
+	z-index: 10;
+}
+
+#header-ribbon .menu {
+	display: inline;
+	line-height: 2em;
+}
+
+#header-ribbon .menu a {
+	color: #7777aa;
+}
+
+#header-ribbon ul.depth-1 {
+	display: inline;
+}
+
+#header-ribbon li {
+	list-style: none;
+}
+
+#header-ribbon li.depth-1 {
+	display: inline-block;
+	position: relative;
+	height: 16px;
+}
+
+#header-ribbon ul.depth-2 {
+	display: none;
+	position: absolute;
+	top: 2em;
+	left: 0;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	border-top-style: none;
+	padding: 10px;
+}
+
+#header-ribbon li.depth-1:hover ul.depth-2 {
+	display: inline-block;
+}
+/* end primary menu */
+
+#header {
+}
+
+#maincontent-targverk {
+	/* background-image: url('images/column-bg.png'); */
+}
+
+.content-main-center {
+	padding-bottom: 70px;
+}
+
+#targ {
+}
+
+#footer {
+	background-color: #666666;
+	min-height: 60px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+/* Devel Only.  UGGGGLYYYY 
+.targverk {
+	background-color: #ddffdd;
+}
+
+.verk > .conk {
+border: 3px solid #0000ff;
+}
+.hork > .conk {
+border: 3px solid #00ff00;
+}
+*/
+
+/* ie9 and some 10 will not honor a transparent link unless it has -some- 
+background, even it's a fully transparent image */
+.transparent-link {
+	background-image: url('images/blank.png');
+}
+
+/* header curve */
+
+#header-ribbon {
+	margin-bottom: -36px;
+	position; relative;
+	z-index: 10;
+}
+
+#block-block-2 {
+	width: 100%;
+	height: 36px;
+	position: relative;
+}
+
+#header-curve-center {
+	width: 1800px;
+	height: 36px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -900px;
+	background-image:url('images/header-curve.png');
+	background-repeat: no-repeat;
+}
+
+#header-curve-left {
+	width: 4000px;
+	height: 36px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -4900px;
+	background-image:url('images/header-left.png');
+	background-repeat: repeat-x;
+}
+
+#header-curve-right {
+	width: 4000px;
+	height: 36px;
+	position: absolute;
+	top: 0px;
+	right: 50%;
+	margin-right: -4900px;
+	background-image:url('images/header-right.png');
+	background-repeat: repeat-x;
+}
+
+#block-views-home-banner-block .contextual-links-wrapper {
+	top: 40px;
+}
+
+
+#block-views-home-banner-block {
+	text-align: center;
+	display: block;
+	width: 100%;
+	line-height: 0px;
+	background-image: url('images/banner-bg.jpg');
+	background-repeat:repeat-x;
+	background-position:left top;
+}
+
+#block-views-home-banner-block .content {
+	margin: 0px auto;
+	position: relative;
+	display: inline-block;
+	line-height: 0px;
+}
+
+
+.views-slideshow-controls-bottom {
+	width: 100%; 
+	padding-top: 10px;
+}
+.views-slideshow-pager-fields div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.views-slideshow-pager-fields img {
+	border: 2px solid #bebebe;
+}
+
+.views-slideshow-pager-fields .active img {
+	border-color: #10538a;
+}
+
+.thumbnail-title {
+	padding-top: 3px;
+	display: block !important;
+	font-size: 12px;
+	line-height: 1.2em;
+	width: 90px;
+	font-family: 'UrbanoRegular','arial','helvetica','geneva',sans-serif;
+	color: #656565;
+	text-transform: uppercase;
+}
+
+.edit-header .view-header {
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	font-size: 11px;
+	z-index: 20;
+	text-shadow: 1px 1px #000000;
+}
+
+.edit-header .view-header a {
+	color: #ffffff;
+}
+
+.view-content div.contextual-links-wrapper {
+	right: 30px;
+}
+
+.two-column {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.two-column.column-left {
+	margin-right: 5%;
+}
+
+.two-column.column-right {
+	margin-left: 5%;
+}
+
+#node-59 .column-right {
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #888888;
+}
+
+#node-59 .column-right .field-items {
+	padding: 10px 15px;
+}

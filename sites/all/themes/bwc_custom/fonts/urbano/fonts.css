@@ -1,0 +1,194 @@
+﻿/* Comment out any unused faces to speed up loading time. */
+/*
+@font-face {
+	font-family: 'UrbanoBlack';
+	src: url('Urbano-Black-webfont.eot');
+	src: local('?'), url('Urbano-Black-webfont.woff') format('woff'), url('Urbano-Black-webfont.ttf') format('truetype'), url('Urbano-Black-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'UrbanoBlackExpanded';
+	src: url('Urbano-BlackExpanded-webfont.eot');
+	src: local('?'), url('Urbano-BlackExpanded-webfont.woff') format('woff'), url('Urbano-BlackExpanded-webfont.ttf') format('truetype'), url('Urbano-BlackExpanded-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoBlackItalic';
+	src: url('Urbano-BlackItalic-webfont.eot');
+	src: local('?'), url('Urbano-BlackItalic-webfont.woff') format('woff'), url('Urbano-BlackItalic-webfont.ttf') format('truetype'), url('Urbano-BlackItalic-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+@font-face {
+	font-family: 'UrbanoBold';
+	src: url('Urbano-Bold-webfont.eot');
+	src: local('?'), url('Urbano-Bold-webfont.woff') format('woff'), url('Urbano-Bold-webfont.ttf') format('truetype'), url('Urbano-Bold-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*
+@font-face {
+	font-family: 'UrbanoBoldCondensed';
+	src: url('Urbano-BoldCond-webfont.eot');
+	src: local('?'), url('Urbano-BoldCond-webfont.woff') format('woff'), url('Urbano-BoldCond-webfont.ttf') format('truetype'), url('Urbano-BoldCond-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoBoldCondensedItalic';
+	src: url('Urbano-BoldCondItalic-webfont.eot');
+	src: local('?'), url('Urbano-BoldCondItalic-webfont.woff') format('woff'), url('Urbano-BoldCondItalic-webfont.ttf') format('truetype'), url('Urbano-BoldCondItalic-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoBoldExpanded';
+	src: url('Urbano-BoldExpanded-webfont.eot');
+	src: local('?'), url('Urbano-BoldExpanded-webfont.woff') format('woff'), url('Urbano-BoldExpanded-webfont.ttf') format('truetype'), url('Urbano-BoldExpanded-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+@font-face {
+	font-family: 'UrbanoBoldItalic';
+	src: url('Urbano-BoldItalic-webfont.eot');
+	src: local('?'), url('Urbano-BoldItalic-webfont.woff') format('woff'), url('Urbano-BoldItalic-webfont.ttf') format('truetype'), url('Urbano-BoldItalic-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*
+@font-face {
+	font-family: 'UrbanoCondensed';
+	src: url('Urbano-Cond-webfont.eot');
+	src: local('?'), url('Urbano-Cond-webfont.woff') format('woff'), url('Urbano-Cond-webfont.ttf') format('truetype'), url('Urbano-Cond-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoCondensedItalic';
+	src: url('Urbano-CondItalic-webfont.eot');
+	src: local('?'), url('Urbano-CondItalic-webfont.woff') format('woff'), url('Urbano-CondItalic-webfont.ttf') format('truetype'), url('Urbano-CondItalic-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'UrbanoExpanded';
+	src: url('Urbano-Expanded-webfont.eot');
+	src: local('?'), url('Urbano-Expanded-webfont.woff') format('woff'), url('Urbano-Expanded-webfont.ttf') format('truetype'), url('Urbano-Expanded-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoExtraBoldCondensed';
+	src: url('Urbano-ExtraBdCond-webfont.eot');
+	src: local('?'), url('Urbano-ExtraBdCond-webfont.woff') format('woff'), url('Urbano-ExtraBdCond-webfont.ttf') format('truetype'), url('Urbano-ExtraBdCond-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoExtraBoldCondensedItali';
+	src: url('Urbano-ExtraBdCondIt-webfont.eot');
+	src: local('?'), url('Urbano-ExtraBdCondIt-webfont.woff') format('woff'), url('Urbano-ExtraBdCondIt-webfont.ttf') format('truetype'), url('Urbano-ExtraBdCondIt-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoExtraBoldExpanded';
+	src: url('Urbano-ExtraBoldExpanded-webfont.eot');
+	src: local('?'), url('Urbano-ExtraBoldExpanded-webfont.woff') format('woff'), url('Urbano-ExtraBoldExpanded-webfont.ttf') format('truetype'), url('Urbano-ExtraBoldExpanded-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoExtraCondensed';
+	src: url('Urbano-ExtraCond-webfont.eot');
+	src: local('?'), url('Urbano-ExtraCond-webfont.woff') format('woff'), url('Urbano-ExtraCond-webfont.ttf') format('truetype'), url('Urbano-ExtraCond-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+@font-face {
+	font-family: 'UrbanoItalic';
+	src: url('Urbano-Italic-webfont.eot');
+	src: local('?'), url('Urbano-Italic-webfont.woff') format('woff'), url('Urbano-Italic-webfont.ttf') format('truetype'), url('Urbano-Italic-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoLight';
+	src: url('Urbano-Light-webfont.eot');
+	src: local('?'), url('Urbano-Light-webfont.woff') format('woff'), url('Urbano-Light-webfont.ttf') format('truetype'), url('Urbano-Light-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoLightCondensed';
+	src: url('Urbano-LightCond-webfont.eot');
+	src: local('?'), url('Urbano-LightCond-webfont.woff') format('woff'), url('Urbano-LightCond-webfont.ttf') format('truetype'), url('Urbano-LightCond-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoLightCondensedItalic';
+	src: url('Urbano-LightCondItalic-webfont.eot');
+	src: local('?'), url('Urbano-LightCondItalic-webfont.woff') format('woff'), url('Urbano-LightCondItalic-webfont.ttf') format('truetype'), url('Urbano-LightCondItalic-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*
+@font-face {
+	font-family: 'UrbanoLightExtraCondensed';
+	src: url('Urbano-LtExtraCond-webfont.eot');
+	src: local('?'), url('Urbano-LtExtraCond-webfont.woff') format('woff'), url('Urbano-LtExtraCond-webfont.ttf') format('truetype'), url('Urbano-LtExtraCond-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+@font-face {
+	font-family: 'UrbanoLightItalic';
+	src: url('Urbano-LightItalic-webfont.eot');
+	src: local('?'), url('Urbano-LightItalic-webfont.woff') format('woff'), url('Urbano-LightItalic-webfont.ttf') format('truetype'), url('Urbano-LightItalic-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoRegular';
+	src: url('Urbano-Regular-webfont.eot');
+	src: local('?'), url('Urbano-Regular-webfont.woff') format('woff'), url('Urbano-Regular-webfont.ttf') format('truetype'), url('Urbano-Regular-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*
+@font-face {
+	font-family: 'UrbanoUltra';
+	src: url('Urbano-Ultra-webfont.eot');
+	src: local('?'), url('Urbano-Ultra-webfont.woff') format('woff'), url('Urbano-Ultra-webfont.ttf') format('truetype'), url('Urbano-Ultra-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UrbanoUltraItalic';
+	src: url('Urbano-UltraItalic-webfont.eot');
+	src: local('?'), url('Urbano-UltraItalic-webfont.woff') format('woff'), url('Urbano-UltraItalic-webfont.ttf') format('truetype'), url('Urbano-UltraItalic-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*/

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Ankom Product Import feature.
+ */
+
+include_once 'ankom_product_import.features.inc';

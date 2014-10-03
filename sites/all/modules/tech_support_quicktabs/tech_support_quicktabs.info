@@ -1,0 +1,5 @@
+name = tech_support_quicktabs export module
+description = Export objects from CTools
+dependencies[] = quicktabs
+package = Chaos tool suite
+core = 7.x

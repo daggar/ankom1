@@ -1,0 +1,6 @@
+#targ #menu-shroud {
+	  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)" !important;
+}
+
+#targ .globe-graphic {
+}

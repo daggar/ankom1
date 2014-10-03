@@ -1,0 +1,46 @@
+name = Bob Wright Creative Custom Theme
+description = Based off core Stark theme
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = flex.css
+stylesheets[all][] = fonts/urbano/fonts.css
+stylesheets[all][] = layout.css.less
+stylesheets[all][] = typography.css
+stylesheets-conditional[lt IE 9][all][] = ie-old.css
+scripts[] = scripts.js
+
+; Information added by drupal.org packaging script on 2013-04-03
+version = "7.22"
+project = "drupal"
+datestamp = "1365027012"
+
+
+; Regions
+; use 'first' and 'second' because where we might use vertical or horizontal divisions
+; Header
+  regions[header_first]      		= Header First
+  regions[header_second]     		= Header Second
+  regions[header_ribbon]				= Header Ribbon
+  regions[header_ribbon2]				= Header Ribbon 2
+;	Body                        	
+  regions[highlighted]					= Highlighted
+  regions[content_above]      	= Directly Above Main Content
+  regions[content]            	= Main Content
+  regions[content_below]      	= Directly below Main Content
+  regions[sidebar_first]      	= Sidebar Left
+  regions[sidebar_second]     	= Sidebar Right
+; Lower content               	
+	regions[lower_content_left] 	= Lower Content Sidebar
+	regions[lower_content_right]	= Lower Content Main Section
+	regions[pagebottom_fullwidth] = Page Bottom Full Width
+; Footer
+	regions[footer_ribbon]				= Footer Ribbon
+	regions[footer_first]					= Footer First
+	regions[footer_second]				= Footer Second
+; Outside normal page flow    	
+	regions[fixed]								= Browser-Fixed Elements
+	regions[toolbar] 			   			= Toolbar
+	regions[admin_blocks]					= Administration Blocks
+; It's possible               	
+;	regions[toolbar2]							= 2nd Toolbar

@@ -1,0 +1,331 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	
+	ul.menu li,
+	ul.menu li.expanded,
+	ul.menu li.collapsed {
+		vertical-align: top;
+		list-style-image: none;
+		list-style-type: none;
+		margin: 0;
+	}
+	
+	/* Mitigate relative shrinkage */
+	li li, li p, td p, blockquote p {
+	  font-size: 1em;
+	}
+	
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	
+	body.admin-menu {
+		margin-top: 20px;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	
+	em,
+	i {
+		font-style: italic;
+	}
+	
+/* end HTML reset*/
+
+/* Drupal CSS reset - undo certain properties set in Drupal's core CSS */
+
+ul li.leaf {
+	padding: 0 0 0 0;
+}
+
+/* clearfix */
+	.clearfix:after {
+		content: ".";
+		display: block;
+		clear: both;
+		visibility: hidden;
+		line-height: 0;
+		height: 0;
+	}
+	 
+	.clearfix {
+		display: inline-block;
+	}
+	 
+	html[xmlns] .clearfix {
+		display: block;
+	}
+	 
+	* html .clearfix {
+		height: 1%;
+	}
+/* end clearfix */
+
+/*
+	GENERAL IMPLEMENTION FROM terms.txt
+	Shouldn't need to change much.
+*/
+
+	#targ {
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+		min-width: 980px;
+	}
+	
+	.conk {
+		display: block;
+	}
+	
+	.verk {
+		display: inline-block;
+		clear: none;
+	}
+	
+	.verk.targverk {
+		display: block;
+	}
+	
+	.hork {
+		display: block;
+		width: 100%;
+	}
+
+/*
+	END GENERAL IMPLEMENTION FROM terms.txt
+*/
+
+/* 
+SPECIFIC IMPLEMENTATION FROM terms.txt
+*/
+
+	/* SET FIXED PAGE WIDTH HERE */
+	.targverk {
+		max-width: 980px;
+		position: relative;
+		margin: 0 auto;
+		min-width: 980px;
+	}
+	
+	.transverk {
+		clear: none;
+		display: inline-block;
+		float: left;
+		vertical-align: top;
+	}
+	/* center column */
+	.transverk-1 {
+		width: 100%;
+	}
+	
+	/* override for stacked content pages */
+	.node-type-two-column-wrapper-page #maincontent-targverk { 
+		width: 100%;
+		max-width: 100%;
+		}
+	
+	.node-two-column-page-section {
+		max-width: 980px;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+		
+	/* END override for stacked content pages */
+	
+	.transverk-1 > .conk {
+		padding-top: 20px;
+	}
+	
+	.sidebar-first .transverk-1 > .conk {
+		margin-left: 210px;
+	}
+	
+	.sidebar-second .transverk-1 > .conk {
+		margin-right: 266px;
+	}
+	
+	.two-sidebars .transverk-1 > .conk {
+		margin: 0 266px 0 210px;
+	}
+	
+	#sidebar-right-lower > .conk {
+		margin-right: 266px;
+	}
+	
+		/* edit tabs, system messages etc */
+	#admin-blocks {
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		overflow: hidden;
+		z-index: 300;
+		background-color: #dddddd;
+	}
+	
+	#targ ul.primary {
+		border-top: 1px solid #bbbbbb;
+		border-bottom-style: none;
+		padding: 0 0 5px 5px;
+		margin: 0;
+	}
+	
+	#targ ul.primary li a {
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-top-style: none;
+	}
+	
+	ul.primary li.active a {
+		border-color: #FFFFFF #BBBBBB #BBBBBB;
+		border-top-style: none;
+	}
+	
+	.targhork {
+	}
+
+	
+	/* left column */
+	.transverk-side {
+		width: 266px;
+	}
+	
+	.transverk-side > .conk {
+		padding: 10px;
+		padding-top: 20px;
+	}
+	
+	.transverk-2 {
+		margin-left: -100%;
+		width: 266px;
+	}
+	
+	/* right column */
+	.transverk-3 {
+		width:266px;
+		margin-left: -266px;
+	}
+	#footer-targhork {
+		background-color: #bbbbbb;
+		color: #ffffff;
+	}
+/* 
+END SPECIFIC IMPLEMENTATION FROM terms.txt
+*/
+
+#header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 30;
+	background-color: #ffffff;
+	height: 131px;
+}
+
+#header-ribbon {
+	margin-bottom: -36px;
+	position: fixed;
+	z-index: 27;
+	left: 0px;
+	top: 131px;
+}
+
+
+/* In a lightframe?  Hide all but the main content */
+	.in-iframe #admin-menu,
+	.in-iframe #header,
+	.in-iframe .sidebar,
+	.in-iframe #footer,
+	.in-iframe .bwc-toolbar,
+	.in-iframe #fixed-position,
+	.in-iframe #maincontent-above,
+	.in-iframe #maincontent-below
+  {
+		display: none !important;
+	}
+	
+	.in-iframe .transverk-1 > .conk {
+		margin: 0 0 0 0 !important;
+	}
+		
+/* end lightframe hide */
+
+
+/* default CSS - general desktop layout */
+
+	#screen-format {
+		display: none !important;
+		width: 9999px;
+	}
+
+	input,
+	select {
+		border: 1px solid #999999;
+		border-radius: 2px;
+		margin-right: 1em;
+	}
+	
+	input:hover,
+	select:hover {
+		background-color: #ddddff;
+	}
+
+/* END default CSS - general desktop layout */
+
+
+/* big tablet */
+@media only screen and (max-width:1024px) {
+	#screen-format {
+		width: 1024px;
+	}
+
+} /* end big tablet- @media only screen and (max-width:1024px) */
+
+/* phone/small tablet - */
+@media only screen and (max-width:755px) {
+	#screen-format {
+		width: 755px;
+	}
+
+} /* end phone- @media only screen and (max-width:755px) */

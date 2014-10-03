@@ -1,0 +1,38 @@
+WHY MAKE UP WORDS?  
+Because every other word in techspeak has a million different meanings
+or meta-qualifiers.  I'm tired of wraps and meta-wraps and outer-wraps 
+and inner-wraps.  And blocks and subblocks and things.
+
+MAJOR TERMS:
+	TARG: the outermost container of a page.
+	SUBTARG: A container directly inside the targ that contains most of the 
+				page.  Sometimes needed to allow absolutely-positioned elements
+				outside the flow of the normal page but keep them inside the targ
+				for consistent DOM manipulation.
+	CONK: A container that uses all of the space available inside the current 
+				container.  Often a nested container used to define padding, margins
+				or gutters.
+	VERK: A container that uses 100% of the vertical height available in its 
+				parent container, but a subset of the horizontal space.  Often a 
+				column.
+	HORK: A container that uses 100% horizontal width available in its parent, 
+				but a subset of the vertical space.  Often a row.
+	GRIK: A container that uses less than all of both the horizontal and 
+				vertical space.  For example, a single square in a grid.
+				
+MINOR TERMS:
+	TARGVERK: A verk that that defines the overarching content width, and 
+				usually will not have other verks next to it,.  On a desktop-focused 
+				site, this could be a 960 grid container.  For example, a div 
+				containing the main column AND the sidebars.
+	TARGHORK: A hork that spans the full width of the targ.  For example, a
+				footer that requires a window-spanning background may require a 
+				targhork, then probably a targverk inside it to keep the footer the
+				same width as the rest of the page.
+	TRANSVERK: A verk whose width corresponds to verks in other container, 
+				usually to create the appearance of a column that spans several 
+				horizontal sections like targhorks.
+	TRANSVERK-SIDE: a transverk on the side of a central transverk.  Typically
+				a sidebar.
+	TARGHORKLET: A vertically narrow targhork, creating a ribbon across the 
+				page width. Often used for things like primary navigation.
